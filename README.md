@@ -7,4 +7,4 @@ This project presents a Deep Q-Learning-based autonomous agent capable of playin
 - Run `agent.py` to train the model.  
 
 ### Demo  
-![Demo](Assets/snake_game_demo.gif)  
+![Demo](Assets/SnakeGameRL.gif)  
