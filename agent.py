@@ -13,7 +13,11 @@ LR = 0.001
 class Agent:
     def __init__(self):
         self.n_games = 0
+<<<<<<< HEAD
         self.epsilon = 0                                                # randomness
+=======
+        self.epsilon = 0                                                 # randomness
+>>>>>>> 531b7ad7dc01f3b62e94893d9ecc031434a72a62
         self.gamma = 0.9                                                 # discount
         self.memory = deque(maxlen=MAX_MEMORY)                           # popleft()
         self.model = Linear_QNet(11, 256, 256, 3)
